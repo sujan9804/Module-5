@@ -28,13 +28,36 @@ To write a Python program to get the employee and doctor details and display the
 
 ### PROGRAM
 ```
-
+# REGNO:-212222060013
+# Name: AKSHAIYAN S
+class Parent:
+   def __init__(self,name):
+     self.name = name
+   def getName(self):
+     return self.name
+class Child(Parent):
+   def __init__(self,name,age):
+     Parent.__init__(self,name)
+     self.age = age
+   def getAge(self):
+     return self.age
+class Grandchild(Child):
+   def __init__(self,name,age,location):
+     Child.__init__(self,name,age)
+     self.location=location
+   def getLocation(self):
+     return self.location
+name=input()
+age=int(input())
+loc=input()
+gc = Grandchild(name,age,loc)
+print(gc.getName(), gc.getAge(), gc.getLocation())
 
 ```
 
 ### OUTPUT  
 
-(Output Screenshot)  
-
+<img width="803" height="190" alt="image" src="https://github.com/user-attachments/assets/cf6860c8-44fd-4210-b2b5-8da6d63e9941" />
 
 ### RESULT
+Thus a Python program to Get the name, age and location of a person and display using Multilevel inheritance has been implemented successfully.
