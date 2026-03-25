@@ -32,8 +32,8 @@ To write a Python program to get the name, attendance, and ID of a student and c
 ### PROGRAM
 
 ```python
-#Reg No-212222060252
-#Name- SREE DHARMA A V
+#Reg No-212222060262
+#Name- SUJAN S B
 class value():
     def __init__(self,name,no,a,b,c,d):
         self.name=name
