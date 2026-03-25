@@ -22,8 +22,8 @@ To create a Python class `Student` with a destructor.
 ### PROGRAM
 
 ```python
-#Reg No.:212222060252
-#Name: SREE DHARMA A V
+#Reg No.:212222060262
+#Name: SUJAN S B
 class Student:
 
     # constructor
